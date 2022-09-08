@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    div.scrollmenu {
+      background-color: #333;
+      overflow: auto;
+      white-space: nowrap;
+    }
+
+    div.scrollmenu a {
+      display: inline-block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+    }
+
+    div.scrollmenu a:hover {
+      background-color: rgb(245, 105, 11);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="scrollmenu">
+    <a href="D:\zfinal\main.html">Home</a>
+    <a href="D:\zfinal\cpro.html">C Language</a>
+    <a href="D:\zfinal\dsa.html">DSA</a>
+    <a href="D:\zfinal\c++.html">C++</a>
+    <a href="D:\zfinal\jp.html">Java</a>
+    <a href="D:\zfinal\pp.html">Python</a>
+    <a href="D:\zfinal\ht.html">HTML</a>
+    <a href="D:\zfinal\cs.html">CSS</a>
+    <a href="D:\zfinal\js.html">JavaScript</a>
+    <a href="D:\zfinal\ph.html">PHP</a>
+    <a href="D:\zfinal\ethicalhack.html">Ethical Hacking</a>
+
+    <a href="D:\zfinal\about.html">About Us</a>
+    <a href="D:\zfinal\cont.html">Contact Us</a>
+
+
+  </div>
+
+
+
+
+
+  <style>
+    .vertical-menu {
+      width: 250px;
+      height: 550px;
+      overflow-y: auto;
+    }
+
+    .vertical-menu a {
+      background-color: #eee;
+      color: black;
+      display: block;
+      padding: 12px;
+      text-decoration: none;
+    }
+
+    .vertical-menu a:hover {
+      background-color: #ccc;
+    }
+
+    .vertical-menu a.active {
+      background-color: #4CAF50;
+      color: white;
+    }
+  </style>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Create three equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+      height: 300px;
+      /* Should be removed. Only for demonstration */
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+
+    /* The grid: Three equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 50px;
+      text-align: center;
+      font-size: 25px;
+      cursor: pointer;
+      color: white;
+    }
+
+    .containerTab {
+      padding: 20px;
+      color: white;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Closable button inside the container tab */
+    .closebtn {
+      float: right;
+      color: white;
+      font-size: 35px;
+      cursor: pointer;
+    }
+  </style>
+
+
+  <div style="text-align:center">
+    <h1 style="color: #333;">Learn In Free</h1>
+
+  </div>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 15px;
+    }
+
+    /* Float four columns side by side */
+    .column {
+      float: left;
+      width: 25%;
+      padding: 0 5px;
+
+    }
+
+    .row {
+      margin: 5 5px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Responsive columns */
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+      }
+    }
+
+    /* Style the counter cards */
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 16px;
+      margin: 2px;
+      text-align: center;
+      background-color: rgb(241, 23, 23);
+      color: white;
+    }
+
+    .fa {
+      font-size: 50px;
+    }
+  </style>
+  </head>
+
+  <body>
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      .collapsible {
+        background-color: rgb(1, 5, 4);
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 25px;
+        margin: 10px;
+        flex: 95%;
+        padding: 10px;
+
+      }
+
+      .active,
+      .collapsible:hover {
+        background-color: rgb(255, 0, 0);
+      }
+
+      .content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+      }
+    </style>
+    </head>
+
+    <body>
+
+
+
+      <button class="collapsible">Open Section 1</button>
+     
+      
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</p>
+      </div>
+    
+      <button class="collapsible">Open Section 2</button>
+      
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</p>
+      </div>
+    
+      <button class="collapsible">Open Section 3</button>
+      
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</p>
+      </div>
+      <button class="collapsible">Open Section 3</button>
+      
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</p>
+      </div>
+      <button class="collapsible">Open Section 3</button>
+      
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</p>
+      </div>
+      <button class="collapsible">Open Section 3</button>
+      
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</p>
+      </div>
+      <button class="collapsible">Open Section 3</button>
+      
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</p>
+      </div>
+      <button class="collapsible">Open Section 3</button>
+      
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</p>
+      </div>
+      <button class="collapsible">Open Section 3</button>
+      
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</p>
+      </div>
+      <button class="collapsible">Open Section 3</button>
+      
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</p>
+      </div>
+      <button class="collapsible">Open Section 3</button>
+      
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</p>
+      </div>
+      <button class="collapsible">Open Section 3</button>
+      
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</p>
+      </div>
+      <button class="collapsible">Open Section 3</button>
+      
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</p>
+      </div>
+      <button class="collapsible">Open Section 3</button>
+      
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</p>
+      </div>
+      <button class="collapsible">Open Section 3</button>
+      
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</p>
+      </div>
+      <button class="collapsible">Open Section 3</button>
+      
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</p>
+      </div>
+      <button class="collapsible">Open Section 3</button>
+      
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</p>
+      </div>
+
+      <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+      </script>
+
+    </body>
+
+    <!-- Mirrored from www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Jul 2018 02:09:43 GMT -->
+
+</html>
+
+
+
+
+
+
+
+
+
+
+<style>
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+
+  button:hover,
+  a:hover {
+    opacity: 0.7;
+  }
+</style>
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

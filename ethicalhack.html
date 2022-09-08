@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+  
+
+
+
+  div.scrollmenu {
+      background-color: #333;
+      overflow: auto;
+      white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+      display: inline-block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+      background-color: rgb(245, 105, 11);
+  }
+  </style>
+  </head>
+  <body>
+  
+    <div class="scrollmenu">
+      <a href="\zfinal\main.html">Home</a>
+      <a href="\zfinal\cpro.html">C Language</a>
+      <a href="\zfinal\dsa.html">DSA</a>
+      <a href="\zfinal\c++.html">C++</a>
+      <a href="\zfinal\jp.html">Java</a>
+      <a href="\zfinal\pp.html">Python</a>
+      <a href="\zfinal\ht.html">HTML</a>
+      <a href="\zfinal\cs.html">CSS</a>
+      <a href="\zfinal\js.html">JavaScript</a>  
+      <a href="\zfinal\ph.html">PHP</a> 
+      <a href="\zfinal\ethicalhack.html">Ethical Hacking</a>
+      
+      <a href="\zfinal\about.html">About Us</a>
+      <a href="\zfinal\cont.html">Contact Us</a>
+      
+    
+    </div>
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create a column layout with Flexbox */
+.row {
+  display: flex;
+}
+
+/* Left column (menu) */
+.left {
+  flex: 10%;
+  padding: 15px 15px;
+}
+
+.left h2 {
+  padding-left: 8px;
+}
+
+/* Right column (page content) */
+.right {
+  flex: 65%;
+  padding: 15px;
+}
+
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+/* Style the navigation menu inside the left column */
+#myMenu {
+ 
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
+</style>
+</head>
+<body>
+
+
+<script>
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "30px 10px";
+    document.getElementById("logo").style.fontSize = "25px";
+  } else {
+    document.getElementById("navbar").style.padding = "80px 10px";
+    document.getElementById("logo").style.fontSize = "35px";
+  }
+}
+</script>
+
+</body>
+</html>
+ 
+
+
+<div class="row">
+  <div class="left" style="background-color:#bbb;">
+   <h3 style="background-color: orange;">Learn Ethical Hacking</h3>
+    
+   <ul id="myMenu">
+    <li><a href="\zfinal\ethikalhacking\eh1.html"> Introduction to Ethical Hacking</a></li>
+    <li><a href="\zfinal\ethikalhacking\eh2.html">Footprinting and Reconnaissance</a></li>
+    <li><a href="\zfinal\ethikalhacking\eh4.html">Scanning Networks</a></li>
+    <li><a href="\zfinal\ethikalhacking\eh5.html">Enumeration</a></li>
+    <li><a href="\zfinal\ethikalhacking\eh6.html">System Hacking </a></li>
+    <li><a href="\zfinal\ethikalhacking\eh7.html">Malware Threats</a></li>
+    <li><a href="\zfinal\ethikalhacking\eh8.html">Sniffing</a></li>
+    <li><a href="\zfinal\ethikalhacking\eh9.html">Social Engineering</a></li>
+    <li><a href="\zfinal\ethikalhacking\eh10.html">Denial of Service</a></li>
+    <li><a href="\zfinal\ethikalhacking\eh11.html">Session Hijacking</a></li>
+    <li><a href="\zfinal\ethikalhacking\eh12.html">Hacking Web Servers</a></li>
+    <li><a href="\zfinal\ethikalhacking\eh13.html">Hacking Web Applications</a></li>
+    <li><a href="\zfinal\ethikalhacking\eh14.html">SQL Injection</a></li>
+    <li><a href="\zfinal\ethikalhacking\eh15.html">Hacking Wireless Networks</a></li>
+    <li><a href="\zfinal\ethikalhacking\eh16.html">Hacking Mobile Platforms</a></li>
+    <li><a href="\zfinal\ethikalhacking\eh17.html">Evading IDS, Firewalls, and Honeypots
+    </a></li>
+    <li><a href="\zfinal\ethikalhacking\eh18.html">Cloud Computing</a></li>
+    <li><a href="\zfinal\ethikalhacking\eh19.html">Cryptography</a></li>
+
+
+  </ul>
+  </div>
+  
+  <div class="right" style="background-color:#ddd;">
+    <h2>_____________________Introduction to Ethical Hacking______________________</h2>
+    <h2 style="background-color: #00ffa2">=>Terminology</h2>
+    <p style="background-color: rgb(242, 230, 230)">
+      ○ <b>Hack Value:</b> Notion among hackers that something is worth doing or interesting .
+      <br>
+      <br>
+      ○ <b>Vulnerability:</b> Existence of a weakness, design, or implementation error that can lead to an expected
+      event
+      compromising the security of the system.
+      <br>
+      <br>
+
+
+      ○ <b>Exploit:</b> A breach of IT system security through vulnerabilities.
+      <br>
+      <br>
+
+      ○ <b>Payload:</b> Part of an exploit code that perform the intended malicious action.
+      <br>
+      <br>
+
+      ○ <b>Zero-Day Attack:</b> An attack that exploits computer app vulnerabilities before the software developer
+      releases a
+      patch for the vulnerability.
+      <br>
+      <br>
+
+      ○ <b>Daisy Chaining: </b>Gaining access to one network and/or computer and then using the same info to gain access
+      to
+      multiple networks and computer that contains desirable info.
+      <br>
+      <br>
+
+      ○<b> Doxing: </b>Publishing personally identifiable information.
+      <br>
+      <br>
+
+      ○ <b>Bot:</b> software app that can be controlled remotely to execute or automate pre-defined tasks.
+    </p>
+    <h2 style="background-color: #00ff08">=>Elements of Information Security</h2>
+    <p style="background-color: rgb(242, 230, 230)">
+
+      ○ <b>Non-Repudiation: </b>Sender of a message cannot later deny having sent the message. <br><br>
+      ○<b> Confidentiality: </b>Only authorized users able to view content. <br><br>
+      ○<b> Integrity:</b> Trustworthiness of data or resource in prevention of unauthorized changes. <br><br>
+      ○<b> Availability:</b> assurance systems are accessible. <br><br>
+      ○<b> Authenticity: </b>The quality of being genuine. <br><br>
+
+    </p>
+
+    <h2 style="background-color: #00ff08">=>Information Security Threats and Attack Vectors</h2>
+    <p style="background-color: rgb(242, 230, 230)">
+      ● <b>Cloud computing:</b> is an on-demand delivery of IT capabilities, and stores data. Must be secure. <br><br>
+      ●<b> Advanced Persistent Threats: </b>APT focus on stealing info from victim machine w/o user aware. <br><br>
+      ● <b>Viruses and Worms:</b> Capable of infecting a network within seconds. <br><br>
+      ● <b>Mobile Threats:</b> Many attackers see mobile phone as a way to gain access. <br><br>
+      ● <b>Botnet: </b>huge network of compromised systems. <br><br>
+      ●<b> Insider Attack: </b>an attack performed on a corporate network by an entrusted person w/ access. <br><br>
+      ● <b>Threat categories: </b>Network Threats, Host Threats, App Threats. <br><br>
+      ● <b>Types of Attacks:</b> OS Attacks, Mis-Config attacks, App Level Attacks, Shrink Wrap Code attacks. <br><br>
+
+
+
+
+
+    </p>
+
+    <h2 style="background-color: #00ff08">=>Hacking Concepts, Types, and Phases</h2>
+    <p style="background-color: rgb(242, 230, 230)">
+      ● <b>Hacking:</b> Exploiting system vulnerabilities and compromising security. <br><br>
+      ● <b> Five Phases of Hacking:</b> Reconnaissance, Scanning, Gaining Access, Maintaining Access, Clearing Tracks.
+      <br><br>
+      ● <b> Reconnaissance: </b> Preparation phase when an attacker seeks to gather information. Does not directly
+      interact with
+      the system, and relies on social engineering and public info. <br><br>
+
+      ● <b> Scanning:</b> Identify specific vulnerabilities (in-depth probing). Using Port scanners to detect listening
+      ports
+      (companies should shut down ports that are not required). <br><br>
+
+      ● <b> Gaining Access:</b> Using vulnerabilities identified during reconnaissance [DoS, Logic/Time Exploit,
+      reconfiguring/crashing system].<br><br>
+
+      ● <b> Maintaining Access:</b> Keeping a low profile, keeping system as a launch pad, etc. <br><br>
+      ● <b> Clearing Tracks: </b> Hiding malicious acts while continuing to have access, avoiding suspicion. <br><br>
+
+
+
+    </p>
+
+
+
+    <h2 style="background-color: #00ff08">=>Ethical Hacking Concepts and Scope</h2>
+    <p style="background-color: rgb(242, 230, 230)">
+      <b> Ethical Hacking: </b>Using tools and techniques to identify vulnerabilities with permission.
+    </p>
+
+
+
+
+
+    <h2 style="background-color: #00ff08">=>Information Security Controls</h2>
+    <p style="background-color: rgb(242, 230, 230)">
+
+      ● <b> Information Assurance:</b> Assurance for integrity, availability,confidentiality, and authenticity of info.
+      <br><br>
+
+      <center>
+        <p style="background-color: rgb(242, 230, 230)">
+
+        ●<b> Threat Modeling: </b>Risk Assessment approach for analyzing security. <br><br>
+
+        1) Identify Security Objectives <br><br>
+        2) Application overview <br><br>
+        3) Decompose Application <br><br>
+        4) Identify Threats <br><br>
+        5) Identify Vulnerabilities <br><br>
+      </p>
+
+        
+      </center>
+      ● <b> Network Security Zoning (High to Low):</b><br>
+      <center> Internet Zone <br>
+        |<br>
+        Internet DMZ <br>
+        | <br>
+        Production Network Zone <br>
+        |<br>
+        Intranet Zone <br>
+        | <br>
+        Management Network Zone<br>
+      </center>
+
+      ● Security Policies are the foundation of security infrastructure <br><br>
+      ● Info security policy defines basic requirements and rules to be implemented in order to protect and secure
+      organizations information systems. <br><br>
+      
+      ● 4 types of security policies <br><br>
+     <center>
+      ○ Promiscuous Policy <br><br>
+      ○ Permissive Policy <br><br>
+      ○ Prudent Policy <br><br>
+      ○ Paranoid Policy<br><br>
+     </center>
+      ● Incident Management: set of defined processes to identify, analyze, prioritize, and resolve security security incidents.<br><br>
+      ● Types of Vulnerability Assessments:
+      <center> ○ Active Assessments <br><br>
+        ○ Passive Assessments <br><br>
+        ○ Host-Based assessment <br><br>
+        ○ Internal Assessment <br><br>
+        ○ External Assessment <br><br>
+        ○ Application Assessments <br><br>
+        ○ Network Assessments <br><br>
+        ○ Wireless Network Assessments <br><br>
+      </center>
+      ● Methodology of Assessment: <br><br>
+      <center>
+        Acquisition <br>
+        |<br>
+        Identification<br> 
+        |<br>
+        Analyzing <br>
+        |<br>
+        Evaluation<br>
+        | <br>
+        Reports<br>
+      </center>
+      ● <b> Penetration Testing:</b> Simulating an attack to find out vulnerabilities. <br><br>
+      ● <b> Blue Team:</b> Detect and Mitigate <br><br>
+      ● <b> Red Team:</b> Attack w/ limited access w/ or w/o warning <br><br>
+      ● <b>Types of Pen Test:</b><br>
+      <center>
+      ○ black-box (no prior knowledge) <br><br>
+      ○ white-box (complete knowledge)<br><br>
+      ○ grey-box(limited knowledge)<br><br>
+    </center>
+      ● Lots of open source security testing methodologies (OWASP, NIST , etc)
+
+
+
+
+
+
+    </p>
+
+
+
+
+  <h2 style="background-color: #00ff08">=>Information Security Laws & Standards</h2>
+  <p style="background-color: rgb(242, 230, 230)">
+    ● Payment card Industry Data Security Standard (PCI-DSS) - Payment Systems. <br><br>
+    ● Sarbanes Oxley Act (SOX) - Protect investors and public by increasing reliability of corporate disclosures. <br><br>
+
+  
+
+
+
+
+  </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  </div>
+</div>
+
+<script>
+function myFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
